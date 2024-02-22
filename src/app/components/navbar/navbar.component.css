@@ -25,9 +25,10 @@ a:hover {
 }
 
 /* MOBILE */
-@media (max-width: var(--breakpoint-mobile)) {
+/*capire perchè non riesce a prenderla dal :root */
+@media (max-width: 768px) {
+
     ul {
         flex-direction: column;
-        background-color: aliceblue;
     }
 }

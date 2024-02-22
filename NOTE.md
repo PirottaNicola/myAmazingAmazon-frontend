@@ -27,3 +27,12 @@ The previous steps imply that we want to use the last version of Angular CLI, bu
 ## Aggiungi il router outlet al template principale
 
 Al fine di renderizzare le varie views, dobbiamo specificare DOVE. Per fare questo, usiamo il tag `<router-outlet></router-outlet>` all'interno dell'app.component.html. Questo tag è un placeholder che verrà sostituito con il contenuto della view corrispondente all'URL corrente.
+
+## CSS style
+
+- nel file `src/styles.css` definisco gli elementi che voglio siano uguali in tutta l'applicazione. Ad esempio, posso definire il font da usare per tutti i testi, i colori, ecc.
+
+## Creare i models per i dati
+
+- Creare una cartella `model` all'interno della cartella `src/app`
+- Creare un file `product.model.ts` all'interno della cartella `models` (usando il comando `ng generate interface model/product`)
