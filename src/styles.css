@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* root colors and font */
+:root {
+    --primary-color: #267777;
+    --primary-background-color: #e9e9e9;
+    --secondary-color: #094c49;
+    --secondary-background-color: #dddddd;
+    --success-color: #28a745;
+    --info-color: #17a2b8;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --gray-color: #6c757d;
+    --gray-dark-color: #343a40;
+    --breakpoint-mobile: 768px;
+    --breakpoint-tablet: 992px;
+    --breakpoint-desktop: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}

@@ -1,0 +1,33 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--primary-color);
+}
+
+
+a {
+    /* in order to be able to resize the element */
+    display: block;
+    color: var(--light-color);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: var(--secondary-color);
+    transition: 0.5s;
+}
+
+/* MOBILE */
+@media (max-width: var(--breakpoint-mobile)) {
+    ul {
+        flex-direction: column;
+        background-color: aliceblue;
+    }
+}
