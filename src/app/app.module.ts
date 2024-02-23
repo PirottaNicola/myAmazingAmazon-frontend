@@ -17,6 +17,7 @@ import {
   NbLayoutModule,
   NbMenuModule,
   NbThemeModule,
+  NbToggleModule,
 } from '@nebular/theme';
 
 @NgModule({
@@ -39,6 +40,7 @@ import {
     NbButtonModule, // nebular button module
     NbMenuModule.forRoot(), // nebular menu module
     NbButtonGroupModule, // nebular button group module
+    NbToggleModule, // nebular toggle module
   ],
   // The providers array is used to define the services that are used in the application
   providers: [],

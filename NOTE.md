@@ -42,4 +42,10 @@ Al fine di renderizzare le varie views, dobbiamo specificare DOVE. Per fare ques
 - Installare Nebular: `npm install @nebular/theme`
 - installare le dipendenze di nebular: `npm install @angular/cdk @angular/animations`
 - Importare i vari moduli di Nebular nel modulo principale (app.module.ts): `import { NbThemeModule } from '@nebular/theme';` e aggiungerli all'array di imports `NbThemeModule.forRoot({ name: 'default' })`
-- Aggiungere il tema di Nebular al file `angular.json` all'interno dell'oggetto `styles`
+- Aggiungere il tema di Nebular al file `angular.json` all'interno dell'oggetto `styles` dell'oggetto `architect.build.options`:
+  ```json
+  "styles": [
+    "node_modules/@nebular/theme/styles/prebuilt/default.css",
+    "src/styles.css"
+  ]
+  ```
