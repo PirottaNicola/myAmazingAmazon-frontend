@@ -36,3 +36,10 @@ Al fine di renderizzare le varie views, dobbiamo specificare DOVE. Per fare ques
 
 - Creare una cartella `model` all'interno della cartella `src/app`
 - Creare un file `product.model.ts` all'interno della cartella `models` (usando il comando `ng generate interface model/product`)
+
+## Aggiunta componenti Nebular
+
+- Installare Nebular: `npm install @nebular/theme`
+- installare le dipendenze di nebular: `npm install @angular/cdk @angular/animations`
+- Importare i vari moduli di Nebular nel modulo principale (app.module.ts): `import { NbThemeModule } from '@nebular/theme';` e aggiungerli all'array di imports `NbThemeModule.forRoot({ name: 'default' })`
+- Aggiungere il tema di Nebular al file `angular.json` all'interno dell'oggetto `styles`

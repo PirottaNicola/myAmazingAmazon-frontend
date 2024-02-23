@@ -25,3 +25,6 @@ body {
     font-size: 1rem;
     line-height: 1.5;
 }
+
+/* import Nebular theme */
+@import "node_modules/@nebular/theme/styles/prebuilt/default.css";
