@@ -21,6 +21,7 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "src/styles.css",
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "node_modules/@nebular/theme/styles/prebuilt/default.css"
             ],
             "scripts": []
@@ -78,6 +79,7 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "src/styles.css",
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "node_modules/@nebular/theme/styles/prebuilt/default.css"
             ],
             "scripts": []

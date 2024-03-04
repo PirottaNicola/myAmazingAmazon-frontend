@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { MaterialModule } from './material.module';
 
 import { StoreModule } from '@ngrx/store';
 import { AppRoutingModule } from './app-routing.module';
@@ -19,6 +21,7 @@ import {
   NbThemeModule,
   NbToggleModule,
 } from '@nebular/theme';
+import { ProductCardComponent } from './components/product-card/product-card.component';
 
 @NgModule({
   // The declarations array is used to define the components, directives, and pipes that are used in the application
@@ -29,6 +32,7 @@ import {
     CartComponent,
     OrdersComponent,
     ErrorComponent,
+    ProductCardComponent,
   ],
   // The imports array is used to import other modules into the application
   imports: [
@@ -41,6 +45,8 @@ import {
     NbMenuModule.forRoot(), // nebular menu module
     NbButtonGroupModule, // nebular button group module
     NbToggleModule, // nebular toggle module
+    HttpClientModule,
+    MaterialModule,
   ],
   // The providers array is used to define the services that are used in the application
   providers: [],

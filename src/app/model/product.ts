@@ -1,7 +1,22 @@
 export interface Product {
-  id: number;
-  imageUrl: string;
+  productId: number;
+  productName: string;
+  category: Category;
+  vendorProducts: VendorProduct[];
+}
+
+export interface Category {
   category: string;
+}
+
+export interface VendorProduct {
+  id: ID;
+  quantity: number;
   price: number;
-  name: string;
+  available: boolean;
+}
+
+export interface ID {
+  vatNumber: string;
+  productId: number;
 }
